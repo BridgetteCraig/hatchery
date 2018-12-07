@@ -7,7 +7,7 @@
         padding: 0;
         margin: 0;
     }
-    
+
     body{
     font-family: 'PT Sans', sans-serif;
     }
@@ -72,16 +72,16 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     #egg{
         height: 22vh;
     }
-    
+
     #text_logo{
         width: 65vw;
         margin-top: 4vh;
     }
-    
+
     #description{
         height: 42vh;
         width: 100%;
@@ -91,11 +91,11 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     #about{
         width: 86vw;
     }
-    
+
     #description h2{
         font-family: 'rift-soft', sans-serif;
         font-weight: 700;
@@ -105,14 +105,14 @@
         text-align: center;
         margin-bottom: 1vh;
     }
-    
+
     #description p{
         font-family: 'PT Sans', sans-serif;
         color: #797979;
         font-size: 4vw;
         text-align: center;
     }
-    
+
     #features{
         width: 100%;
         background-color: #50C2C6;
@@ -121,7 +121,7 @@
         justify-content: space-between;
         align-items: center;
     }
-    
+
     #features_contain{
         width: 86vw;
         display: flex;
@@ -131,7 +131,7 @@
         margin-top: 5%;
         margin-bottom: 3%;
     }
-    
+
     .feature{
         padding-bottom: 5%;
         padding-top: 5%;
@@ -140,12 +140,12 @@
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .icon{
         width: 30vw;
         margin-bottom: 4%;
     }
-    
+
     #features h3{
         font-family: 'rift-soft', sans-serif;
         color: #FFFFFF;
@@ -153,14 +153,14 @@
         text-align: center;
         letter-spacing: .3vw;
     }
-    
+
     #features p{
         font-family: 'PT Sans', sans-serif;
         color: #FFFFFF;
         font-size: 4vw;
         text-align: center;
     }
-    
+
     #application{
         width: 100%;
         background-color: #FFFFFF;
@@ -169,7 +169,7 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     #apply{
         width: 86vw;
         margin-top: 5%;
@@ -180,12 +180,12 @@
         align-content: center;
         align-items: center;
     }
-    
+
     #app_icon{
         width: 30vw;
         margin-bottom: 8%;
     }
-    
+
     #application h2{
         font-family: 'rift-soft', sans-serif;
         font-weight: 700;
@@ -195,20 +195,20 @@
         text-align: center;
         margin-bottom: 1%;
     }
-    
+
     #application p{
         font-family: 'PT Sans', sans-serif;
         color: #797979;
         font-size: 4vw;
         text-align: center;
     }
-    
+
     #apply a{
         text-decoration: none;
         color: #FFFFFF;
         margin-top: 8%;
     }
-    
+
     #apply_button{
         width: 40vw;
         height: 12vw;
@@ -219,7 +219,7 @@
         align-items: center;
         border-radius: 5px;
     }
-    
+
     #apply_button h5{
         color: #FFFFFF;
         font-size: 19px;
@@ -227,7 +227,7 @@
         letter-spacing: 1px;
         font-family: 'rift-soft', sans-serif;
     }
-    
+
     footer{
         background-color: #5F5F70;
         font-family: 'PT Sans', sans-serif;
@@ -238,7 +238,7 @@
         align-content: center;
         height: 15vh;
     }
-    
+
     #footer_contain{
         width: 86vw;
         display: flex;
@@ -246,18 +246,18 @@
         align-content: center;
         align-items: center
     }
-    
+
     #footer_logo{
         width: 25vw;
     }
-    
+
     footer nav{
         width: 60vw;
         height: 10vh;
         display: flex;
         justify-content: flex-end;
     }
-    
+
     footer nav ul{
         width: 46vw;
         list-style-type: none;
@@ -277,7 +277,7 @@
         font-size: 4vw;
         letter-spacing: .02vw;
     }
-    
+
     footer nav a:link{
         text-decoration: none;
         color: #FFFFFF;
@@ -297,7 +297,7 @@
         text-decoration: none;
         color: #FFFFFF;
     }
-    
+
 /* } */ /* end media query */
 
 
@@ -317,12 +317,12 @@
 
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-    
+
     *{
         padding: 0;
         margin: 0;
     }
-    
+
     body{
         font-family: 'PT Sans', sans-serif;
     }
@@ -387,16 +387,16 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     #egg{
         height: 22vh;
     }
-    
+
     #text_logo{
         width: 65vw;
         margin-top: 4vh;
     }
-    
+
     #description{
         height: 42vh;
         width: 100%;
@@ -406,11 +406,11 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     #about{
         width: 86vw;
     }
-    
+
     #description h2{
         font-family: 'rift-soft', sans-serif;
         font-weight: 700;
@@ -420,14 +420,14 @@
         text-align: center;
         margin-bottom: 1vh;
     }
-    
+
     #description p{
         font-family: 'PT Sans', sans-serif;
         color: #797979;
         font-size: 100px;
         text-align: center;
     }
-    
+
     #features{
         width: 100%;
         background-color: #50C2C6;
@@ -436,7 +436,7 @@
         justify-content: space-between;
         align-items: center;
     }
-    
+
     #features_contain{
         width: 86vw;
         display: flex;
@@ -446,7 +446,7 @@
         margin-top: 5%;
         margin-bottom: 3%;
     }
-    
+
     .feature{
         padding-bottom: 5%;
         padding-top: 5%;
@@ -455,12 +455,12 @@
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .icon{
         width: 30vw;
         margin-bottom: 4%;
     }
-    
+
     #features h3{
         font-family: 'rift-soft', sans-serif;
         color: #FFFFFF;
@@ -468,14 +468,14 @@
         text-align: center;
         letter-spacing: .3vw;
     }
-    
+
     #features p{
         font-family: 'PT Sans', sans-serif;
         color: #FFFFFF;
         font-size: 4vw;
         text-align: center;
     }
-    
+
     #application{
         width: 100%;
         background-color: #FFFFFF;
@@ -484,7 +484,7 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     #apply{
         width: 86vw;
         margin-top: 5%;
@@ -495,12 +495,12 @@
         align-content: center;
         align-items: center;
     }
-    
+
     #app_icon{
         width: 30vw;
         margin-bottom: 8%;
     }
-    
+
     #application h2{
         font-family: 'rift-soft', sans-serif;
         font-weight: 700;
@@ -510,20 +510,20 @@
         text-align: center;
         margin-bottom: 1%;
     }
-    
+
     #application p{
         font-family: 'PT Sans', sans-serif;
         color: #797979;
         font-size: 4vw;
         text-align: center;
     }
-    
+
     #apply a{
         text-decoration: none;
         color: #FFFFFF;
         margin-top: 8%;
     }
-    
+
     #apply_button{
         width: 40vw;
         height: 12vw;
@@ -534,7 +534,7 @@
         align-items: center;
         border-radius: 5px;
     }
-    
+
     #apply_button h5{
         color: #FFFFFF;
         font-size: 19px;
@@ -542,7 +542,7 @@
         letter-spacing: 1px;
         font-family: 'rift-soft', sans-serif;
     }
-    
+
     footer{
         background-color: #5F5F70;
         font-family: 'PT Sans', sans-serif;
@@ -553,7 +553,7 @@
         align-content: center;
         height: 15vh;
     }
-    
+
     #footer_contain{
         width: 86vw;
         display: flex;
@@ -561,18 +561,18 @@
         align-content: center;
         align-items: center
     }
-    
+
     #footer_logo{
         width: 25vw;
     }
-    
+
     footer nav{
         width: 60vw;
         height: 10vh;
         display: flex;
         justify-content: flex-end;
     }
-    
+
     footer nav ul{
         width: 46vw;
         list-style-type: none;
@@ -592,7 +592,7 @@
         font-size: 4vw;
         letter-spacing: .02vw;
     }
-    
+
     footer nav a:link{
         text-decoration: none;
         color: #FFFFFF;
@@ -612,5 +612,5 @@
         text-decoration: none;
         color: #FFFFFF;
     }
-    
+
 }

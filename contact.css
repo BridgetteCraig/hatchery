@@ -68,13 +68,32 @@ header nav a:active{
     align-items: center;
 }
 
-#egg{
-    height: 22vh;
+#cover_contain{
+    width: 78vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#text_logo{
-    width: 65vw;
-    margin-top: 4vh;
+#mail_icon{
+    height: 18vh;
+}
+
+#cover h2{
+  font-family: 'rift-soft', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 11vw;
+  letter-spacing: 1px;
+  margin-top: 2vh;
+}
+
+#cover p{
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    font-size: 4vw;
+    text-align: center;
 }
 
 #description{
