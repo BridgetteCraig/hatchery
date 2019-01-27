@@ -18,12 +18,17 @@
         min-width: 270px;
         height: 8vh;
         background-color: #50C2C6;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     header nav ul{
         list-style-type: none;
+        width: 30%;
+        padding-right: 10%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         align-content: center;
         line-height: 8vh;
@@ -34,7 +39,7 @@
         font-family: 'rift-soft', sans-serif;
         font-weight: 700;
         color: #FFFFFF;
-        font-size: 5vw;
+        font-size: 3vh;
         letter-spacing: 1px;
     }
 
@@ -63,17 +68,18 @@
         width: 100%;
         background-color: #FEC262;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
     #egg{
-        height: 22vh;
+        height: 25vh;
+        padding-right: 3%;
     }
 
     #text_logo{
-        width: 65vw;
+        width: 40vw;
         margin-top: 4vh;
     }
 
@@ -85,10 +91,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        align-content: center;
     }
 
     #about{
-        width: 86vw;
+        width: 60vw;
+        height: 42vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
     .about{
@@ -100,8 +113,8 @@
         font-family: 'rift-soft', sans-serif;
         font-weight: 700;
         color: #04B6B2;
-        font-size: 7vw;
-        letter-spacing: .2vw;
+        font-size: 5vh;
+        letter-spacing: .05vw;
         text-align: center;
         margin-bottom: 1vh;
     }
@@ -109,7 +122,7 @@
     #description p{
         font-family: 'PT Sans', sans-serif;
         color: #797979;
-        font-size: 4vw;
+        font-size: 3vh;
         text-align: center;
     }
 
@@ -118,46 +131,46 @@
         background-color: #50C2C6;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
 
     #features_contain{
-        width: 86vw;
+        width: 80vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-top: 5%;
-        margin-bottom: 3%;
+        padding-bottom: 10vh;
+        padding-top: 5vh;
     }
 
     .feature{
-        padding-bottom: 5%;
-        padding-top: 5%;
+        width: 60vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        margin-top: 8vh;
     }
 
     .icon{
-        width: 30vw;
+        width: 10vw;
         margin-bottom: 4%;
     }
 
     #features h3{
         font-family: 'rift-soft', sans-serif;
         color: #FFFFFF;
-        font-size: 7vw;
+        font-size: 4vh;
         text-align: center;
-        letter-spacing: .3vw;
+        letter-spacing: .1vw;
     }
 
     #features p{
         font-family: 'PT Sans', sans-serif;
         color: #FFFFFF;
-        font-size: 4vw;
+        font-size: 3vh;
         text-align: center;
     }
 
@@ -171,7 +184,7 @@
     }
 
     #apply{
-        width: 86vw;
+        width: 60vw;
         margin-top: 5%;
         margin-bottom: 10%;
         display: flex;
@@ -182,16 +195,17 @@
     }
 
     #app_icon{
-        width: 30vw;
-        margin-bottom: 8%;
+        width: 15vw;
+        margin-bottom: 5vh;
+        padding-left: 2vw;
     }
 
     #application h2{
         font-family: 'rift-soft', sans-serif;
         font-weight: 700;
         color: #FEC262;
-        font-size: 7vw;
-        letter-spacing: .3vw;
+        font-size: 5vh;
+        letter-spacing: .1vw;
         text-align: center;
         margin-bottom: 1%;
     }
@@ -199,7 +213,7 @@
     #application p{
         font-family: 'PT Sans', sans-serif;
         color: #797979;
-        font-size: 4vw;
+        font-size: 3vh;
         text-align: center;
     }
 
@@ -210,8 +224,8 @@
     }
 
     #apply_button{
-        width: 40vw;
-        height: 12vw;
+        width: 18vw;
+        height: 5vw;
         background-color: #FEC262;
         display: flex;
         justify-content: center;
@@ -222,7 +236,7 @@
 
     #apply_button h5{
         color: #FFFFFF;
-        font-size: 5vw;
+        font-size: 4vh;
         text-transform: uppercase;
         letter-spacing: 1px;
         font-family: 'rift-soft', sans-serif;
@@ -240,15 +254,15 @@
     }
 
     #footer_contain{
-        width: 86vw;
+        width: 80vw;
         display: flex;
         justify-content: space-between;
         align-content: center;
-        align-items: center
+        align-items: center;
     }
 
     #footer_logo{
-        width: 25vw;
+        width: 15vw;
     }
 
     footer nav{
@@ -259,7 +273,7 @@
     }
 
     footer nav ul{
-        width: 46vw;
+        width: 30vw;
         list-style-type: none;
         display: flex;
         flex-direction: row;
@@ -274,7 +288,7 @@
         font-weight: 600;
         text-transform: uppercase;
         color: #FFFFFF;
-        font-size: 4vw;
+        font-size: 3vh;
         letter-spacing: .02vw;
     }
 
