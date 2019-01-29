@@ -88,11 +88,11 @@
     }
 
     #about{
-        width: 86vw;
+        width: 84vw;
     }
 
     .about{
-        color: hsl(187, 47%, 55%);
+        color: #50C2C6;
         /* comment */
     }
 
@@ -123,27 +123,27 @@
     }
 
     #features_contain{
-        width: 86vw;
+        width: 84vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-top: 5%;
-        margin-bottom: 3%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 
     .feature{
-        padding-bottom: 5%;
-        padding-top: 5%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
     }
 
     .icon{
-        width: 30vw;
-        margin-bottom: 4%;
+        width: 18vh;
+        margin-bottom: 3vh;
     }
 
     #features h3{
@@ -171,7 +171,7 @@
     }
 
     #apply{
-        width: 86vw;
+        width: 80vw;
         margin-top: 5%;
         margin-bottom: 10%;
         display: flex;
@@ -191,7 +191,7 @@
         font-weight: 700;
         color: #FEC262;
         font-size: 7vw;
-        letter-spacing: .3vw;
+        letter-spacing: .1vw;
         text-align: center;
         margin-bottom: 1%;
     }
