@@ -88,6 +88,7 @@ header nav a:active{
 
 #caption_contain{
     width: 40vw;
+    min-width: 330px;
 }
 
 #cover h2{
@@ -127,6 +128,7 @@ header nav a:active{
 
 .feature{
     width: 20vw;
+    min-width: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -171,6 +173,35 @@ header nav a:active{
 }
 
 #email a:active{
+    color: #50C2C6;
+    text-decoration: none;
+}
+
+#feature3 h4{
+    font-family: 'PT Sans', sans-serif;
+    color: #797979;
+    font-size: 1.1em;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#feature3 a:link{
+    color: #797979;
+    text-decoration: none;
+}
+
+#feature3 a:visited{
+    color: #797979;
+    text-decoration: none;
+}
+
+#feature3 a:hover{
+    color: #50C2C6;
+    text-decoration: none;
+}
+
+#feature3 a:active{
     color: #50C2C6;
     text-decoration: none;
 }

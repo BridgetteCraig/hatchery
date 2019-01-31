@@ -30,6 +30,8 @@
     }
 
     header nav li{
+        width: 15vw;
+        text-align: center;
         text-decoration: none;
         font-family: 'rift-soft', sans-serif;
         font-weight: 700;

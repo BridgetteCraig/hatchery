@@ -30,6 +30,8 @@ header nav ul{
 }
 
 header nav li{
+    width: 15vw;
+    text-align: center;
     text-decoration: none;
     font-family: 'rift-soft', sans-serif;
     font-weight: 700;
@@ -120,6 +122,8 @@ header nav a:active{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .feature{
@@ -170,6 +174,35 @@ header nav a:active{
 }
 
 #email a:active{
+    color: #50C2C6;
+    text-decoration: none;
+}
+
+#feature3 h4{
+    font-family: 'PT Sans', sans-serif;
+    color: #797979;
+    font-size: 1.1em;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#feature3 a:link{
+    color: #797979;
+    text-decoration: none;
+}
+
+#feature3 a:visited{
+    color: #797979;
+    text-decoration: none;
+}
+
+#feature3 a:hover{
+    color: #50C2C6;
+    text-decoration: none;
+}
+
+#feature3 a:active{
     color: #50C2C6;
     text-decoration: none;
 }
