@@ -74,21 +74,25 @@ header nav a:active{
 }
 
 #cover_contain{
-    width: 68vw;
+    width: 70vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#mail_icon{
-    width: 15vw;
+#apply_duo{
+    width: 12vw;
     padding-right: 4vw;
 }
 
 #caption_contain{
-    width: 40vw;
+    width: 50vw;
     min-width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 #cover h2{
@@ -97,7 +101,6 @@ header nav a:active{
   color: #FFFFFF;
   font-size: 11vh;
   letter-spacing: 1px;
-  margin-top: 2vh;
 }
 
 #cover p{
@@ -136,7 +139,7 @@ header nav a:active{
 }
 
 .icon{
-    height: 13vh;
+    height: 10vh;
     margin-bottom: 3vh;
 }
 
@@ -154,27 +157,6 @@ header nav a:active{
     color: #797979;
     font-size: 1.1em;
     text-align: center;
-}
-
-/* styles email links */
-#email a:link{
-    color: #797979;
-    text-decoration: none;
-}
-
-#email a:visited{
-    color: #797979;
-    text-decoration: none;
-}
-
-#email a:hover{
-    color: #50C2C6;
-    text-decoration: none;
-}
-
-#email a:active{
-    color: #50C2C6;
-    text-decoration: none;
 }
 
 #feature3 h4{
@@ -204,6 +186,15 @@ header nav a:active{
 #feature3 a:active{
     color: #50C2C6;
     text-decoration: none;
+}
+
+#who h3{
+    font-family: 'rift-soft', sans-serif;
+    color: 5F5F70;
+    font-size: 7vh;
+    text-align: center;
+    letter-spacing: .05vw;
+    margin-bottom: 1.5vh;
 }
 
 #social{
