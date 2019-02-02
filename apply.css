@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+}
+
+#header_contain{
+}
+
+header nav{
+    width: 100%;
+    min-width: 270px;
+    height: 8vh;
+    background-color: #50C2C6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav ul{
+    list-style-type: none;
+    width: 30%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    line-height: 8vh;
+}
+
+header nav li{
+    text-decoration: none;
+    font-family: 'rift-soft', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 3vh;
+    letter-spacing: 1px;
+}
+
+header nav a:link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header nav a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header nav a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header nav a:active{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#cover{
+    height: 50vh;
+    width: 100%;
+    background-color: #FEC262;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#cover_contain{
+    width: 68vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#mail_icon{
+    width: 15vw;
+    padding-right: 4vw;
+}
+
+#caption_contain{
+    width: 40vw;
+    min-width: 330px;
+}
+
+#cover h2{
+  font-family: 'rift-soft', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 11vh;
+  letter-spacing: 1px;
+  margin-top: 2vh;
+}
+
+#cover p{
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    font-size: 3vh;
+    text-align: left;
+}
+
+#features{
+    width: 100%;
+    height: 42vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+#features_contain{
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature{
+    width: 20vw;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    height: 13vh;
+    margin-bottom: 3vh;
+}
+
+#features h3{
+    font-family: 'rift-soft', sans-serif;
+    color: 5F5F70;
+    font-size: 4vh;
+    text-align: center;
+    letter-spacing: .05vw;
+    margin-bottom: 1.5vh;
+}
+
+#features p{
+    font-family: 'PT Sans', sans-serif;
+    color: #797979;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* styles email links */
+#email a:link{
+    color: #797979;
+    text-decoration: none;
+}
+
+#email a:visited{
+    color: #797979;
+    text-decoration: none;
+}
+
+#email a:hover{
+    color: #50C2C6;
+    text-decoration: none;
+}
+
+#email a:active{
+    color: #50C2C6;
+    text-decoration: none;
+}
+
+#feature3 h4{
+    font-family: 'PT Sans', sans-serif;
+    color: #797979;
+    font-size: 1.1em;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#feature3 a:link{
+    color: #797979;
+    text-decoration: none;
+}
+
+#feature3 a:visited{
+    color: #797979;
+    text-decoration: none;
+}
+
+#feature3 a:hover{
+    color: #50C2C6;
+    text-decoration: none;
+}
+
+#feature3 a:active{
+    color: #50C2C6;
+    text-decoration: none;
+}
+
+#social{
+    background-color: #50C2C6;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#connect{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#connect h3{
+    font-family: 'rift-soft', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 3vw;
+    letter-spacing: .1vw;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+#connect p{
+    font-family: 'PT Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#media_contain{
+    width: 30vw;
+    padding-top: 4vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social_icon{
+    height: 8vh;
+}
+
+footer{
+        background-color: #5F5F70;
+        font-family: 'PT Sans', sans-serif;
+        color: #FFFFFF;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 15vh;
+    }
+
+    #footer_contain{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    #footer_logo{
+        width: 15vw;
+    }
+
+    footer nav{
+        width: 60vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    footer nav ul{
+        width: 30vw;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    footer nav li{
+        text-decoration: none;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 3vh;
+        letter-spacing: .02vw;
+    }
+
+    footer nav a:link{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    footer nav a:visited{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    footer nav a:hover{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    footer nav a:active{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
