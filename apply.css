@@ -139,14 +139,14 @@ header nav a:active{
 }
 
 .icon{
-    height: 10vh;
+    height: 9vh;
     margin-bottom: 3vh;
 }
 
 #features h3{
     font-family: 'rift-soft', sans-serif;
     color: 5F5F70;
-    font-size: 4vh;
+    font-size: 6vh;
     text-align: center;
     letter-spacing: .05vw;
     margin-bottom: 1.5vh;
@@ -168,36 +168,7 @@ header nav a:active{
     font-weight: 400;
 }
 
-#feature3 a:link{
-    color: #797979;
-    text-decoration: none;
-}
-
-#feature3 a:visited{
-    color: #797979;
-    text-decoration: none;
-}
-
-#feature3 a:hover{
-    color: #50C2C6;
-    text-decoration: none;
-}
-
-#feature3 a:active{
-    color: #50C2C6;
-    text-decoration: none;
-}
-
-#who h3{
-    font-family: 'rift-soft', sans-serif;
-    color: 5F5F70;
-    font-size: 7vh;
-    text-align: center;
-    letter-spacing: .05vw;
-    margin-bottom: 1.5vh;
-}
-
-#social{
+#application{
     background-color: #50C2C6;
     width: 100%;
     height: 50vh;
@@ -208,7 +179,7 @@ header nav a:active{
     align-items: center;
 }
 
-#connect{
+#apply{
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -217,7 +188,7 @@ header nav a:active{
     align-items: center;
 }
 
-#connect h3{
+#apply h3{
     font-family: 'rift-soft', sans-serif;
     font-weight: 700;
     color: #FFFFFF;
@@ -227,23 +198,37 @@ header nav a:active{
     margin-bottom: 3vh;
 }
 
-#connect p{
+#apply p{
     font-family: 'PT Sans', sans-serif;
     color: #FFFFFF;
     font-size: 1.1em;
     text-align: center;
 }
 
-#media_contain{
-    width: 30vw;
-    padding-top: 4vh;
-    display: flex;
-    justify-content: space-around;
-}
+#apply_button{
+        width: 200px;
+        height: 60px;
+        background-color: #FEC262;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 5vh;
+    }
 
-.social_icon{
-    height: 8vh;
-}
+#apply a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+#apply_button h5{
+        color: #FFFFFF;
+        font-size: 4vh;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'rift-soft', sans-serif;
+    }
 
 footer{
         background-color: #5F5F70;
