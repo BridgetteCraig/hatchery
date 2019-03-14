@@ -115,14 +115,15 @@ header nav a:active{
 }
 
 .action{
-    width: 170px;
+    width: 150px;
     height: 40px;
     float: left;
     margin-right: 10px;
     border-radius: 5px;
-    font-family: 'Lato', sans-serif;
-    color: #EA5F5D;
-    font-size: 10px;
+    font-family: 'PT Sans', sans-serif;
+    color: #5F5F70;
+    font-size: 12px;
+    font-weight: 600;
     line-height: 40px;
     text-align: center;
 }
@@ -132,9 +133,13 @@ header nav a:active{
     font-size: 15px;
 }
 
+#learn_more h5{
+    color: #ffffff;
+}
+
 .action a{
     text-decoration: none;
-    color: #EA5F5D;
+    color: #5F5F70;
 }
 
 #apply_now{
